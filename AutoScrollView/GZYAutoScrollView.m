@@ -113,7 +113,7 @@
 {
     CGSize size = _scrollView.bounds.size;
     NSInteger index = page.currentPage;
-    NSLog(@"index=%ld",index);
+    //NSLog(@"index=%ld",index);
     _scrollView.contentOffset = CGPointMake(index*size.width,0);
 }
 
