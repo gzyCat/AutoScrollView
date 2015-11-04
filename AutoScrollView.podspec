@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  auto scrollview 
+  auto ScrollView on ios > 7.0 arc 
                    DESC
 
   s.homepage     = "https://github.com/gzyCat/AutoScrollView"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/gzyCat/AutoScrollView.git", :tag => s.version}
+  s.source       = { :git => "https://github.com/gzyCat/AutoScrollView.git", :tag => "0.1.0"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AutoScrollView/**/*"
+  s.source_files  = "Classes", "Classes/**/*.{h,m}","AutoScrollView/*" 
+
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
