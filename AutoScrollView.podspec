@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "AutoScrollView"
   s.version      = "0.1.0"
-  s.summary      = "自动滚动视图 "
+  s.summary      = "Auto ScrollView demo"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  auto scrollview
+  auto scrollview 
                    DESC
 
   s.homepage     = "https://github.com/gzyCat/AutoScrollView"
@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  #s.license      = "MIT"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = "MIT"
+  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,9 +53,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "gzyCat" => "email@address.com" }
+  s.author             = { "gzyCat" => "841905781@qq.com" }
   # Or just: s.author    = "gzyCat"
-  # s.authors            = { "gzyCat" => "email@address.com" }
+  # s.authors            = { "gzyCat" => "841905781@qq.com" }
   # s.social_media_url   = "http://twitter.com/gzyCat"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/gzyCat/AutoScrollView.git", :tag => s.version,:commit => "2e487a24b47125dc786c873341825030c7fbd637" }
+  s.source       = { :git => "https://github.com/gzyCat/AutoScrollView.git", :tag => s.version}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -130,7 +130,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  s.requires_arc = true
+ s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
